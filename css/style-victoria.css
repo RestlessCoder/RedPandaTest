@@ -1,0 +1,629 @@
+html,
+body {
+	
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+	background-color:#383636;
+	
+}
+
+.yellow-text {
+	
+	color:#FFFF99;
+}
+
+.italic-text {
+	
+	font-style:italic;
+}
+
+.tab-space {
+	
+	text-indent: 5em;
+}
+
+#overlay{
+	
+	height:100%;
+	width:100%;
+	background:rgba(0, 0, 0, 1);
+	position:fixed;
+	left:0;
+	top:0;
+}
+
+/* NAVBAR */
+#logo {
+	
+	height:60px;
+	position:relative;
+	bottom:20px;
+}
+
+.navbar {
+	
+	height:70px;
+	padding:10px;
+	margin-bottom:0;
+	background-color:black;
+
+}
+
+.navbar .nav > li > a {
+	
+	font-family:'Baloo Bhaina';
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+
+
+}
+
+.navbar .nav > li > a:hover{
+		
+	color:red;
+
+}
+
+
+h1 {
+	
+	color:white;
+	font-size:45px;
+}
+
+h2 {
+	
+	color:white;
+}
+
+/* DROPDOWN NAVBAR */
+.dropdown-menu > li > a {
+	
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	font-size:15px;
+	font-family:'Baloo Bhaina';
+}
+
+
+
+/* MENU PARALLAX */
+#menu {
+	
+	padding-bottom:200px;
+}
+
+.main-title {
+	
+	text-align:center;
+	font-family: 'Cubano-Regular';
+	font-size:40px;
+	padding-top:90px;
+	padding-bottom:60px;
+}
+
+.row .col-lg-4 {
+	
+	background-color:white;
+	clear:both;
+	margin:10px;
+	padding:10px;
+	
+}
+
+.parallax-text {
+	
+	padding:0 10px;
+	padding-top:12px;
+	
+}
+
+.parallax-text a:link,
+.parallax-text a:visited  {
+	
+	font-family: 'Nunito-Regular';
+	text-decoration:none;
+	font-size:18px;
+	color:black;
+	
+	
+}
+
+.title-text a:link,
+.title-text a:visited {
+	
+	text-decoration:none;
+	color:black;
+	font-family: 'Cubano-Regular';
+	transition:0.2s;
+}
+
+#christmas2016 {
+	
+	text-align:center;
+	background:url('../img/christmas-dinner.jpg') center no-repeat fixed;
+	padding-top:50px;
+	padding-bottom:100px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	box-shadow: inset 0 0 200px #000;
+}
+
+#pre-theatre {
+	
+	text-align:center;
+	background:url('../img/theatre.jpg') center no-repeat fixed;
+	padding-top:50px;
+	padding-bottom:150px;
+	background-size:cover;
+	box-shadow: inset 50px 50px 200px #000;
+	
+}
+
+#a-la-carte {
+	
+	text-align:center;
+	background:url('../img/RedPandaGVS/slide4.jpg') center no-repeat fixed;
+	padding-top:50px;
+	padding-bottom:150px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	box-shadow: inset 0 0 200px #000;
+}
+
+#chinese-traditional{
+	
+	text-align:center;
+	background:url('../img/prawn.jpg') center no-repeat fixed;
+	padding-top:80px;
+	padding-bottom:180px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	box-shadow: inset 0 0 200px #000;
+}
+
+#lunch-menu{
+	
+	text-align:center;
+	background:url('../img/RedPandaGVS/slide3.jpg') center no-repeat fixed;
+	padding-top:60px;
+	padding-bottom:150px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	box-shadow: inset 0 0 200px #000;
+}
+
+#dessert-menu {
+	
+	text-align:center;
+	background:url('../img/dessert-coffee.jpg') center no-repeat fixed;
+	padding-top:60px;
+	padding-bottom:150px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	box-shadow: inset 0 0 200px #000;
+}
+
+#takeaway-menu {
+	
+	text-align:center;
+	background:url('../img/take-away.jpg') center no-repeat fixed;
+	padding-top:80px;
+	padding-bottom:180px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	box-shadow: inset 0 0 200px #000;
+}
+
+#cocktail-menu {
+	
+	text-align:center;
+	background:url('../img/magarita.jpg') center no-repeat fixed;
+	padding-top:60px;
+	padding-bottom:150px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	box-shadow: inset 0 0 200px #000;
+}
+
+
+/* PRIVATE FUNCTION SECTION */
+.section-function {
+	
+	background-color:#091219;
+	background:url('../img/karoake.jpg') center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	padding-top:80px;
+	padding-bottom:100px;
+}
+
+.section-function .container .row .col-sm-8 {
+	
+	background-color:none;
+	clear:both;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin-top:20px;
+	margin-bottom:8px;
+	margin-right:10px;
+}
+
+#karaoke-text {
+	
+	color:white;
+}
+
+
+
+/* RESERVATION SECTION */
+.section-reservation {
+	
+	background-color:#091219;
+	padding-top:60px;
+	padding-bottom:100px;
+	
+}
+
+#reservation-title {
+	
+	padding-bottom:40px;
+
+}
+
+.form-label {
+	
+	color:rgba(255,0,0,0.8);
+	font-size:20px;
+	padding-top:18px;
+	
+	
+}
+
+#submit {
+	
+	margin-top:20px;
+	color:white;
+	background-color:rgba(255,0,0,0.8);
+	padding: 10px 24px;
+	border-radius: 2px;
+	font-size:22px;
+	
+	
+}
+
+#submit:hover {
+	
+	transform: scale(1.1);
+	color:black;
+	transition:0.2s;
+}
+
+/*For border inputs and textarea style*/
+textarea:focus, input:focus {
+	
+	border-color: rgba(255, 50, 0, 1)!important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 1px rgba(231, 76,60, 0.1) !important;
+}
+
+.submit-button {
+	
+	text-align:center;
+	
+}
+
+h1,h2,h3,p {
+		
+	text-align:center;
+	font-family:'Cubano-Regular';
+	color:white;
+	
+}
+
+/* GOOGLE MAPS */
+#contact {
+	
+	padding-top:60px;
+	padding-bottom:50px;
+	
+}
+
+.section-contact {
+		
+	background-color:#383636;
+
+}
+
+#contact-title {
+	
+	padding-bottom:40px;
+}
+
+.col-lg-6 .well {
+	
+	background-color:white;	
+	padding:0;
+
+}
+
+.sub-contactTitle {
+	
+	color:red;
+	font-weight:bold;
+}
+
+.text-contact {
+		
+	color:black;
+	font-size:18px;
+}
+
+/* FOOTER */
+.footer  {
+	
+	background-color:black;
+	padding:20px;
+	position:relative;
+	text-align:center;
+	
+}
+
+.social-links li {
+	
+	display:inline-block;
+	padding:10px;
+	
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	
+	text-decoration:none;
+	border:0;
+	color:#888;
+	transition:0.2s;
+}
+
+.fa-facebook-square:hover {
+	
+	color:#3b5998;
+}
+
+.fa-twitter-square:hover {
+	
+	color:#00aced;
+	
+}
+
+
+#copyright{
+	
+	font-family: 'Nunito-Regular';
+	font-weight:bold;
+	color:white;
+	font-size:16px;
+	padding:0px;
+	margin:0px;
+}
+
+.fa-facebook-square,
+.fa-twitter-square {
+	
+	transition:0.2s;
+}
+
+/* FONTS */
+@font-face {
+	
+	
+    font-family: 'Baloo Bhaina';
+    src: local('baloo-bhaina-v1-latin-regular.ttf'), url('../bootstrap/fonts/baloo-bhaina-v1-latin-regular.ttf') format('truetype');
+
+}
+
+@font-face {
+	
+	
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('../bootstrap/fonts/Cubano-Regular.otf') format('opentype');
+
+}
+
+@font-face {
+	
+	
+    font-family: 'Nunito-Regular';
+    src: local('../Nunito-Regular.ttf'), url('../bootstrap/fonts/Nunito-Regular.ttf') format('truetype');
+
+}
+
+/* ANIMATION */
+.js-lightSpeedIn-1 {opacity:0;}
+.js-lightSpeedIn-1.animated {opacity:1; animation-delay:0.2s;}
+.js-lightSpeedIn-2 {opacity:0;}
+.js-lightSpeedIn-2.animated {opacity:1;animation-delay:0.2s;}
+.js-lightSpeedIn-3 {opacity:0;}
+.js-lightSpeedIn-3.animated {opacity:1; animation-delay:0.2s;}
+.js-lightSpeedIn-4 {opacity:0;}
+.js-lightSpeedIn-4.animated {opacity:1;animation-delay:0.2s;}
+.js-lightSpeedIn-5 {opacity:0;}
+.js-lightSpeedIn-5.animated {opacity:1; animation-delay:0.2s;}
+.js-lightSpeedIn-6 {opacity:0;}
+.js-lightSpeedIn-6.animated {opacity:1;animation-delay:0.2s;}
+.js-lightSpeedIn-7 {opacity:0;}
+.js-lightSpeedIn-7.animated {opacity:1; animation-delay:0.2s;}
+
+.js-fadeInDown-1 {opacity:0;}
+.js-fadeInDown-1.animated{opacity:1;animation-delay:0.2s;}
+.js-fadeInDown-2 {opacity:0;}
+.js-fadeInDown-2.animated{opacity:1;animation-delay:0.2s;}
+.js-fadeInDown-3 {opacity:0;}
+.js-fadeInDown-3.animated{opacity:1;animation-delay:0.2s;}
+
+.js-zoomIn-1 {opacity:0;}
+.js-zoomIn-1.animated{opacity:1;animation-delay:1.5s;}
+.js-zoomIn-2 {opacity:0;}
+.js-zoomIn-2.animated{opacity:1;animation-delay:1.4s;}
+
+.js-fadeInLeft-1 {opacity:0;}
+.js-fadeInLeft-1.animated{opacity:1;animation-delay:0.4s;}
+.js-fadeInRight-1 {opacity:0;}
+.js-fadeInRight-1.animated{opacity:1;animation-delay:0.8s;}
+
+/* RESPONSIVE */
+@media only screen and (max-width:1024px){
+    /* styles for browsers smaller than 1024px*/	
+	.navbar-nav .open .dropdown-menu {
+           
+		position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: rgba(204,204,204,0.8);
+        border: 0;
+            
+    }
+		
+    .navbar-nav .open .dropdown-menu > li > a,       .navbar-nav .open .dropdown-menu 
+	.dropdown-header {
+
+		padding: 5px 15px 5px 25px;
+    
+	}
+				
+	.dropdown-menu > li > a {
+
+		display: block;
+        clear: both;
+		font-weight: normal;
+		color: rgba(255,255,255,0.6);		
+	}
+
+	.navbar-header {
+	
+		float: none;        
+
+	}
+	
+	.navbar-left,.navbar-right {
+      
+	  float: none !important;
+	
+	}
+		
+    .navbar-toggle {
+    
+		display: block;
+    }
+   
+   .navbar-collapse.collapse { 
+		
+		display: none!important;
+				
+	}
+		
+    .navbar-nav {
+		
+		float: none!important;			
+		background-color:rgba(0,0,0,0.5);
+		margin-top:7.5px;
+		
+    }
+		
+    .navbar-nav > li {
+       
+	   float: none;
+    }
+		
+    .navbar-nav > li >a {
+        
+		padding-top: 10px;
+        padding-bottom: 10px;
+		color:rgba(255,255,255,0.8) !important;
+			
+    }
+		
+    .navbar-collapse.collapse.in { 
+	
+        display: block!important;
+		overflow:inherit;
+		
+    }
+	
+}
+
+@media only screen and (min-width: 800px) {
+	/* styles for mobile browsers higher than 800px;*/
+	#karaoke-text:hover {
+	
+		transform:scale(1.2);
+		transition:0.2s;
+	}
+
+	.hover-scale:hover {
+	
+		color:red;
+		transform:scale(1.2);
+		transition:0.2s;
+	}
+	
+	.parallax-text a:hover {
+	
+	color: rgba(0,0,255,0.6);
+	font-style:italic;
+	transition:0.5s;
+}
+
+	.title-text:hover {
+	
+		transform:scale(1.1);
+		transition:0.2s;
+	
+	}
+}
+
+@media only screen and (max-width:800px){
+    
+	#christmas2016 {background:url('../img/christmas-dinner.jpg') center no-repeat;}
+	#pre-theatre {background:url('../img/theatre.jpg') center no-repeat;}
+	#a-la-carte {
+	text-align:center;
+	background:url('../img/RedPandaGVS/slide4.jpg') center no-repeat;}
+	#chinese-traditional{
+	background:url('../img/prawn.jpg') center no-repeat;}
+	#lunch-menu{background:url('../img/RedPandaGVS/slide3.jpg') center no-repeat;}
+	#dessert-menu {background:url('../img/dessert-coffee.jpg') center no-repeat;}
+	#takeaway-menu {background:url('../img/take-away.jpg') center no-repeat;}
+	.section-function {background:url('../img/karoake.jpg') center no-repeat;}
+}
+	
+@media only screen and (max-width:340px){
+    /* styles for mobile browsers smaller than 340px;*/
+	#logo {
+		
+		height:45px;
+	
+	}
+}
+
+
+

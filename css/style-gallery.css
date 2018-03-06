@@ -1,0 +1,164 @@
+html,
+body {
+	
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+    font-family: 'Cubano-Regular';
+	
+}
+
+/* NAVBAR */
+#logo {
+	
+	height:60px;
+	position:relative;
+	bottom:20px;
+}
+
+.navbar {
+	
+	height:70px;
+	padding:10px;
+	margin-bottom:0;
+	background-color:black;
+
+}
+
+.navbar .nav > li > a {
+	
+	font-family:'Baloo Bhaina';
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+
+
+}
+
+.navbar .nav > li > a:hover{
+		
+	color:red;
+
+}
+
+/* GALLERY */
+#gallery-section {
+	
+	padding:80px;
+	color:white;
+	width:100%;
+	background-color:#383636;
+	
+}
+
+.gallery {
+	
+	width:100%;
+	background-color:#383636;
+}
+.row {
+	
+	margin-bottom:20px;
+	width:100%;
+}
+
+/* FOOTER */
+.footer {
+	
+	background-color:black;
+	width:100%;
+	padding:20px;
+	position:relative;
+	text-align:center;
+}
+
+#copyright{
+	
+	font-family: 'Nunito-Regular';
+	font-weight:bold;
+	color:white;
+	font-size:16px;
+	padding:0px;
+	margin:0px;
+}
+
+.clear {
+	
+	clear:both;
+}
+
+/* FONTS */
+@font-face {
+		
+    font-family: 'Baloo Bhaina';
+    src: local('baloo-bhaina-v1-latin-regular.ttf'), url('../bootstrap/fonts/baloo-bhaina-v1-latin-regular.ttf') format('truetype');
+
+}
+
+@font-face {
+	
+	
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('../bootstrap/fonts/Cubano-Regular.otf') format('opentype');
+
+}
+
+@font-face {
+		
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('../bootstrap/fonts/Nunito-Regular.ttf') format('truetype');
+
+}
+
+/* ANIMATE */
+.js-fadeInDown-1 {opacity:0;}
+.js-fadeInDown-1.animated {opacity:1;}
+
+.js-fadeInLeft-1 {opacity:0;}
+.js-fadeInLeft-1.animated{opacity:1;animation-delay:0.4s;}
+.js-fadeInLeft-2 {opacity:0;}
+.js-fadeInLeft-2.animated{opacity:1;}
+.js-fadeInLeft-3 {opacity:0;}
+.js-fadeInLeft-3.animated{opacity:1;}
+.js-fadeInLeft-4 {opacity:0;}
+.js-fadeInLeft-4.animated{opacity:1;}
+.js-fadeInLeft-5 {opacity:0;}
+.js-fadeInLeft-5.animated{opacity:1;}
+
+.js-fadeInRight-1 {opacity:0;}
+.js-fadeInRight-1.animated {opacity:1;animation-delay:0.8s;}
+.js-fadeInRight-2 {opacity:0;}
+.js-fadeInRight-2.animated {opacity:1;}
+.js-fadeInRight-3 {opacity:0;}
+.js-fadeInRight-3.animated {opacity:1;}
+.js-fadeInRight-4 {opacity:0;}
+.js-fadeInRight-4.animated {opacity:1;}
+
+.js-fadeInUp-1 {opacity:0;}
+.js-fadeInUp-1 .animated{opacity:1;}
+.js-fadeInUp-2 {opacity:0;}
+.js-fadeInUp-2.animated {opacity:1;}
+.js-fadeInUp-3 {opacity:0;}
+.js-fadeInUp-3.animated {opacity:1;}
+.js-fadeInUp-4 {opacity:0;}
+.js-fadeInUp-4.animated {opacity:1;}
+
+/* RESPONSIVE */
+@media (max-width: 767px) {
+	#navbar-collapse
+	{
+        background-color:rgba(0,0,0,0.5);
+	}
+  
+}
+
+@media only screen and (max-width:340px){
+    /* styles for mobile browsers smaller than 340px;*/
+	#logo {
+		
+		height:50px;
+	
+	}
+}
+
